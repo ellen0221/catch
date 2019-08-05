@@ -37,3 +37,39 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
 
+[ 2019-08-05T10:24:04+08:00 ] 154.0.161.156 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_n150likhsnhbsliks1cl5vgqs4, O_RDWR) failed: Permission denied (13) /usr/share/nginx/html/catch/ThinkPHP/Common/functions.php 第 1438 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-08-05T10:24:42+08:00 ] 198.199.76.179 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_b58of8bpeht0q7r5hlu7kp5251, O_RDWR) failed: Permission denied (13) /usr/share/nginx/html/catch/ThinkPHP/Common/functions.php 第 1438 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
